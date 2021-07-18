@@ -1,0 +1,88 @@
+@media(min-width:1750px){
+.home_section::before {
+    height: 170px;
+    }
+}
+@media(max-width:1199px){
+    .home_section .home_img{
+        text-align: center;
+    }
+    .home_section .home_img img{
+        position: relative;
+        left: auto;
+        top: auto;
+    }
+}
+@media(max-width:991px){
+    header{
+        padding: 5px 0;
+    }
+    header .navbar-nav{
+        background-color: #ffff;
+    }
+    header .navbar-light .navbar-nav .nav-link{
+        padding: 10px 15px 10px;
+    }
+    header .navbar-light .navbar-toggler{
+        background-color: #ffff;
+        padding: 0;
+        height: 37px;
+        width: 45px;
+        border: none;
+    }
+    header .navbar-light .navbar-toggler:focus{
+        box-shadow: none;
+        outline: none;
+    }
+    header .navbar-light .navbar-toggler-icon{
+        background-image: none;
+        height: 3px;
+        width: 24px;
+        position: relative;
+    }
+    header .navbar-light .navbar-toggler-icon::before{
+        content: '';
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        left: 0;
+        top: -7px;
+    }
+    header .navbar-light .navbar-toggler-icon::after{
+        content: '';
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        left: 0;
+        top: 7px;
+    }
+    .home_section{
+        padding: 150px 0 150px;
+    }
+    .home_section .home_img{
+        margin-bottom: 40px;
+    }
+}
+@media(max-width:767px){
+    .home_section .home_content h1{
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .home_section .home_bg_shapes div:nth-child(5){
+        top: 15%;
+    }
+    .newsletter_section .newsletter_form span{
+        display: none;
+    }
+    .newsletter_section .newsletter_form .form_group .form-control {
+        padding: 0px 111px 0 25px;
+    }
+    
+}
+@media(max-width:575px){
+    .container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+}

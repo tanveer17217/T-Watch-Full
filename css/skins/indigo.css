@@ -1,0 +1,51 @@
+header .navbar-light .navbar-toggler-icon::before,
+header .navbar-light .navbar-toggler-icon::after,
+header .navbar-light .navbar-toggler-icon,
+footer,
+.btn-subscribe,
+.newsletter_section::before,
+.testimonial_section .owl-carousel .owl-nav button.owl-next:hover,
+.testimonial_section .owl-carousel .owl-nav button.owl-prev:hover,
+.testimonial_section::before,
+.product_section .owl-carousel .owl-nav button.owl-next,
+.product_section .owl-carousel .owl-nav button.owl-prev,
+.feature_section .feature_item:hover,
+header, .home_section,
+.section_title .title::before{
+    background-color: #6400ae;
+}
+.btn-bf150{
+    color:#6400ae ;
+}
+
+.btn-bf150:hover{
+    color: #6400ae;
+}
+footer .footer_item .footer_social_links a:hover i,
+.contactus_section .contact_item h5,
+.contactus_section .contact_item .icon i,
+.faq_section .support a,
+.testimonial_section .owl-carousel .owl-nav button.owl-next span,
+.testimonial_section .owl-carousel .owl-nav button.owl-prev span,
+.testimonial_section .testi_item .client_info h5,
+.product_section .product_item .product_pricing .new_price,
+.about_section .about_content ul li i,
+.section_title .title,
+.feature_section .feature_item .feature_icon i{
+    color: #6400ae;
+}
+.testimonial_section .testi_item .client_info img{
+    border: 2px solid #6400ae
+}
+.contactus_section .contact_form .form_group .form-control:focus{
+    border-bottom: 2px solid #6400ae
+}
+.preloader .loader{
+    border-right: 5px solid #6400ae;
+}
+
+@media(max-width:991px){
+    header .navbar-light .navbar-nav .nav-link {
+        color: #6400ae;
+    }
+}
